@@ -1,2 +1,25 @@
-# -_7
-Flutter project created by KLENCOD IDE
+# Smart Notes — Flutter Template
+
+قالب تطبيق ملاحظات Flutter محلي، تم تحديث بنية البناء والإصدارات فيه لتطابق القالب المرجعي الحديث، مع الحفاظ على كود ووظائف تطبيق الملاحظات.
+
+## إصدارات البناء
+- Flutter: `3.47.2` افتراضيًا في Workflow.
+- Java: `17`.
+- Gradle Wrapper: `8.14`.
+- Android Gradle Plugin: `8.11.1`.
+- Kotlin: `2.2.20`.
+- compileSdk وtargetSdk: `36`.
+- minSdk: `21`.
+
+## المزايا
+- إنشاء الملاحظات وتعديلها وحذفها.
+- تثبيت الملاحظات المهمة في الأعلى.
+- البحث الفوري داخل العنوان والمحتوى.
+- تصنيفات Work وPersonal وIdeas.
+- ألوان مختلفة للملاحظات.
+- عداد كلمات وآخر وقت تعديل.
+- تخزين محلي باستخدام SharedPreferences.
+- دعم الوضع الداكن.
+
+## التشغيل
+استورد المجلد كاملًا داخل FlutterIDE، مع إبقاء `pubspec.yaml` و`android/` في الجذر، ثم شغّل Build APK.
