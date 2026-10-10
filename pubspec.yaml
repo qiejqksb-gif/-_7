@@ -1,0 +1,16 @@
+name: ote
+
+description: تطبيق مذكرة ذكي ومنظم وقابل للتوسعة.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+
+flutter:
+  uses-material-design: true
